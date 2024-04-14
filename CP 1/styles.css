@@ -1,0 +1,60 @@
+body {
+    font-family: 'Tinos', Times, serif;
+    background-color: azure;
+}
+
+nav {
+    background-color: rgb(128, 128, 128);
+    font-family: 'Tinos', Times, serif;
+    text-align: center;
+}
+
+nav > ul > li {
+    display: inline;
+    list-style-type: none;
+    padding: 40px;
+    font-size: 30px;
+}
+
+img {
+    border-radius: 7%;
+    border-color: aliceblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    background-color: lightgray;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h3 {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+ul, ol {
+    text-align: center;
+    list-style-position: inside;
+    font-size: 15px;
+}
+
+blockquote {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    border-left: 3px solid gray;
+    padding: 10px;
+    width: 30%
+}
