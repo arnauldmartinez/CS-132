@@ -1,0 +1,23 @@
+tree1_home.jpg:
+    Free to use, taken by Johannes Plenio:
+    https://www.pexels.com/photo/two-brown-trees-1632790/
+
+tree2_home.jpg:
+    Free to use, taken by Johannes Plenio:
+    https://www.pexels.com/photo/green-trees-1567058/
+
+fern.jpg:
+    Free to use, taken by Daniel Frese
+    https://www.pexels.com/photo/photography-of-plants-1055379/
+
+cactus.jpg:
+    Free to use, taken by Scott Webb
+    https://www.pexels.com/photo/three-potted-cactus-plants-1903965/
+
+tulip.jpg:
+    Free to use, taken by Liesl Clark
+    https://www.pexels.com/photo/colorful-tulips-flowers-20192606/
+
+logo.png
+    Free to use, made by Harryarts
+    https://www.freepik.com/free-vector/beautiful-green-coconut-tree-leaf-design_43313455.htm#fromView=search&page=1&position=28&uuid=97f08020-2f0f-4ef0-b04a-72ec75ebbdec

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Name: Arnauld Martinez
+  Date: May 22nd, 2024
+
+  This is plants.html. It contains a list of all the plants the
+  nursery is selling. Each item contains a link to its own webpage.
+-->
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Martinez Nursery</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="utils.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Martinez Nursery Logo">
+    <h1>Martinez Nursery</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="plants.html">Plants</a></li>
+            <li><a href="index.html">Contact</a></li>
+            <li><a href="index.html">Cart</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="selection">
+        <h2>Plant Selection</h2>
+        <!-- Note: See credits.txt for image credits -->
+        <div id="plant-list">
+            <div id="plant-card">
+              <a href="fern.html">
+                <img src="images/fern.jpg" alt="Fern">
+              </a>
+              <h4>Fern</h4>
+            </div>
+            <div id="plant-card">
+              <img src="images/tulip.jpg" alt="Tulip">
+              <h4>Tulip</h4>
+            </div>
+            <div id="plant-card">
+              <img src="images/cactus.jpg" alt="Cactus">
+              <h4>Cactus</h4>
+            </div>
+          </div>
+          <!-- Future: Add more images and utilize javascript to avoid creating a 
+          new HTML page for each plant. -->
+    </div>
+  </main>
+</body>
+</html>

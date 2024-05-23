@@ -1,0 +1,65 @@
+header, main, div#tree-homepage, div#browse, div#buttons, div#featured, div#plant-list, div#plant-card, div#selection, div#plant-page {
+    display: flex;
+}
+
+header, main, div#browse, div#featured, div#plant-card, div#selection {
+    flex-direction: column;
+}
+
+header, div#browse, div#featured, div#plant-list, div#plant-card, div#selection, div#plant-page {
+    align-items: center;
+}
+
+header, div#plant-list {
+    gap: 5pt;
+}
+
+div#buttons, div#plant-page {
+    gap: 10pt;
+}
+
+div#plant-card, div#panel-right {
+    background-color: #BACD92;
+}
+
+body {
+    background-color: #E3F4E3;
+}
+
+header > img {
+    width: 5%;
+    border-color: black;
+}
+
+nav > ul > li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 15pt;
+    font-size: 30px;
+}
+
+div#tree-homepage > img {
+    width: 50%;
+}
+
+div#plant-list {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+div#plant-card > img, div#plant-card > a > img {
+    width: 350pt;
+    height: 250pt;
+}
+
+div#plant-page {
+    justify-content: center;
+}
+
+div#panel-left, div#panel-right {
+    width: 30%;
+}
+
+div#panel-left > img {
+    width: 100%;
+}
