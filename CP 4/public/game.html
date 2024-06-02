@@ -1,0 +1,58 @@
+<!--
+  Name: Arnauld Martinez
+  Date: May 25th, 2024
+
+  This is resume.html. It displays Arnauld's resume and allows users
+  to select a check box when they finish reading it.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="utils.js"></script>
+        <script defer src="game.js"></script>
+        <title>Arnauld Martinez</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="game.html">Guessing Game</a></li>
+                    <li><a href="houses.html">Houses</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="intro">
+            <h1>Dog Breed Guessing Game</h1>
+            <p>In this game, click the 'next' button to see a photo of a dog. Guess the name of the dog in the text 
+                box, and earn points based on the number of breeds you correctly guess! Ready to begin? Type your first guess!
+            </p>
+        </section>
+
+        <section id="game">
+            <h2 id="score">Score: 0</h2>
+            <div id="dog-image">
+                
+            </div>
+
+            <div id="submission">
+                <input type="text" id="guess" name="fname" placeholder="Guess">
+                <button id="submit-btn"> Submit </button>
+            </div>
+        </section>
+
+        <div>
+            <p id="message-area" class="hidden"></p>
+        </div>
+
+        <footer>
+            <p>Image credit: <a href="https://dog.ceo/dog-api/">Dog API</a></p>
+        </footer>
+    </body>
+</html>

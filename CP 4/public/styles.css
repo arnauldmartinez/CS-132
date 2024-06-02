@@ -1,0 +1,133 @@
+/**
+ * Name: Arnauld Martinez
+ * Date: June 2nd, 2024
+ * 
+ * This file includes the necessary css to style my entire website.
+ */
+
+body, #container, #form, #facts, #factlist, #game, #submission, #facilities {
+    display: flex;
+}
+
+body, #form, #facts, #game {
+    flex-direction: column;
+}
+
+nav, #intro h1, #factlist section, #factlist blockquote, footer, #desc, #intro {
+    text-align: center;
+}
+
+#container, #form, #facts {
+    gap: 10pt;
+}
+
+#container, #form, #submission, #facilities {
+    justify-content: center;
+}
+
+#form, #facts, #game {
+    align-items: center;
+}
+
+nav, #intro p, #factlist blockquote, footer, button#bechtel {
+    background-color: lightgray;
+}
+
+#intro p, #factlist h3, #facts, #factlist ul, #factlist ol {
+    font-size: 15pt;
+}
+
+body {
+    font-family: 'Tinos', Times, serif;
+    background-color: azure;
+}
+
+nav > ul > li {
+    display: inline;
+    list-style-type: none;
+    padding: 40px;
+    font-size: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+#image img, #dog-image img {
+    width: 400pt;
+}
+
+#comments {
+    width: 200pt;
+    height: 20pt;
+}
+
+#intro img {
+    border-radius: 7%;
+    border-color: aliceblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#intro p {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#facts button, button#ven {
+    color: white;
+}
+
+#facts button {
+    background-color: gray;
+    border-radius: 2px;
+    border-color: gray;
+}
+
+#factlist {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#factlist section {
+    flex: 0 0 100%;
+}
+
+#factlist ul, ol {
+    list-style-position: inside;
+}
+
+#factlist blockquote {
+    border-left: 3px solid gray;
+}
+
+#facilities {
+    gap: 5%;
+}
+
+#facilities button {
+    width: 10%;
+    height: 30pt;
+}
+
+#desc {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: beige;
+}
+
+button#lloyd, button#bechtel, button#ven {
+    font-weight: bold;
+}
+
+button#ven {
+    background-color: darkblue;
+    border-color: lightblue;
+}
+
+button#lloyd {
+    background-color: yellow;
+    border-color: goldenrod
+}

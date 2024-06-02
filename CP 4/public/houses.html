@@ -1,0 +1,49 @@
+<!--
+  Name: Arnauld Martinez
+  Date: June 2nd, 2024
+
+  This is houses.html, the html file necessary to display information about
+  undergraduate houses at Caltech.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="utils.js"></script>
+        <script defer src="houses.js"></script>
+        <title>Arnauld Martinez</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="game.html">Guessing Game</a></li>
+                    <li><a href="houses.html">Houses</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="intro">
+            <h1>Caltech Houses</h1>
+            <p>Caltech currently has 8 undergraduate houses and 1 residence for undergraduate students. The best house is Lloyd house,
+                the spookiest house is Venerable house, and the only residence is Bechtel residence. Click on the buttons below to get more 
+                information about each living facility.
+            </p>
+        </section>
+
+        <div id="facilities">
+            <button id="lloyd">Lloyd</button>
+            <button id="ven">Venerable</button>
+            <button id="bechtel">Bechtel</button>
+        </div>
+
+        <div id="info"></div>
+
+        <p id="message-area"></p>
+    </body>
+</html>
