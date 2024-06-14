@@ -1,0 +1,54 @@
+<!--
+  Name: Arnauld Martinez
+  Date: June 13th, 2024
+
+  This file populates the plants page, displaying all the necessary plants
+  that are sold at the nursery.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Martinez Nursery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="plants.css">
+  <script src="utils.js"></script>
+  <script defer src="plants.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Martinez Nursery Logo">
+    <h1>Martinez Nursery</h1>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="plants.html">Plants</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="promotions.html">Promotions</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="selection">
+      <h2>Plant List</h2>
+      <p>Filter By:</p>
+      <select id="plant-filter">
+        <option value = "all" id="all-season" selected="selected">All Season</option>
+        <option value = "summer" id="summer">Summer Plants</option>
+        <option value = "winter" id="winter">Winter Plants</option>
+      </select>
+        <!-- Note: See credits.txt for image credits -->
+        <div class="plant-list"></div>  
+        <div id="message-area"></div>
+    </div>
+  </main>
+</body>
+</html>

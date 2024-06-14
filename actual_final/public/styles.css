@@ -1,0 +1,125 @@
+header, main, footer {
+    font-family: 'ubuntu', Arial;
+}
+
+header, main, footer, .plant-list, .plant-card, .selection, .plant-page, .name, .header {
+    display: flex;
+}
+
+header, main, .plant-card, .selection, .name {
+    flex-direction: column;
+}
+
+header, footer, .plant-list, .plant-card, .selection, .plant-page, .name, .header {
+    align-items: center;
+}
+
+header, .plant-list {
+    gap: 5pt;
+}
+
+.plant-page {
+    gap: 10pt;
+}
+
+footer {
+    gap: 5%;
+}
+
+.plant-card, footer, .header {
+    background-color: #BACD92;
+}
+
+.name {
+    background-color: #d3e3b2;
+}
+
+.plant-list {
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: #E3F4E3;
+}
+
+header > img {
+    width: 5%;
+    border-color: black;
+}
+
+nav > ul > li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 15pt;
+    font-size: 30px;
+}
+
+nav > ul > li > a:link, footer a:link {
+    color: rgb(85, 201, 85)
+}
+
+nav > ul > li > a:visited, footer a:visited {
+    color: darkgreen
+}
+
+.plant-list {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.plant-card, .name {
+    margin-bottom: 2%;
+}
+
+.plant-card > img, .plant-card > a > img {
+    width: 300pt;
+    height: 200pt;
+}
+
+.name > img {
+    width: 500pt;
+    height: 300pt;
+}
+
+.name {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    width: 520pt;
+}
+
+h4.name {
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+p.description {
+    max-width: 75%;
+}
+
+p.success {
+    color: green;
+}
+
+.plant-page, footer {
+    justify-content: center;
+}
+
+.header button {
+    height: 20pt;
+    width: 20pt;
+    margin-left: 20pt;
+}
+
+.info-block, .plant-card button {
+    margin-bottom: 10pt;
+}
+
+.info-block h2, .info-block p {
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    padding-left: 25pt;
+}
+
+.info-block p {
+    background-color: #e2e9d3;
+}

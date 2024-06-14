@@ -1,0 +1,29 @@
+Please fill out the following and submit with your Final Project submission 
+(added to help us know what to focus on when grading, what was intentionally incomplete, etc.):
+
+1. What is your estimated grade for the Final Project (roughly of 100)? For partner projects,
+   do you think the workload distribution was fair?
+I am hoping for 100! I believe the workload was fairly distributed between me and my partner Jacob.
+
+2. What is your estimated grade for the course (letter grade)? You can support your
+   estimate with examples of demonstrated engagement in the course material, strengths
+   (and weaknesses) over the term, and growth throughout the material (some assignment
+   grading feedback was delayed, but we would like to know what resources you used to
+   iterate on the material, such as lectures, OH, Discord, etc.)
+I believe my work in the class is sufficient for an A. I enjoyed the class a ton and I learned so much about
+web development and how I can apply it to my own work. The reason I took this class was to gain familiarity with web
+design so I could help build the Lloyd website. It was a huge success too; I integrated several APIs into the website
+and the UI looks amazing. Assignment-wise, I was also able to complete every assignment on time and ensured they passed the
+validators on canvas. I also engaged in office hours, discord, and with my friends when any of us had questions. 
+
+3. To what extent would you like feedback in your project (e.g. thorough, particular areas of the
+   project, or just a grade)?
+I want to know how well I followed standard HTML, CSS, and javascript conventions
+
+4. Anything else you would like El to know when grading?
+I hope you are having a great day
+
+5. Are you open to sharing your project/reflection for future terms? If so, would you
+   like named credit or anonymous?
+Yeah, you can share/modify my project however you want. You can cite me by name, but you don't have to. I'm 
+thankful for everything I learned.

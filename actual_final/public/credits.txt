@@ -1,0 +1,67 @@
+tree1_home.jpg:
+    Free to use, taken by Johannes Plenio:
+    https://www.pexels.com/photo/two-brown-trees-1632790/
+
+tree2_home.jpg:
+    Free to use, taken by Johannes Plenio:
+    https://www.pexels.com/photo/green-trees-1567058/
+
+fern.jpg:
+    Free to use, taken by Daniel Frese
+    https://www.pexels.com/photo/photography-of-plants-1055379/
+
+cactus.jpg:
+    Free to use, taken by Scott Webb
+    https://www.pexels.com/photo/three-potted-cactus-plants-1903965/
+
+tulip.jpg:
+    Free to use, taken by Liesl Clark
+    https://www.pexels.com/photo/colorful-tulips-flowers-20192606/
+
+logo.png
+    Free to use, made by Harryarts
+    https://www.freepik.com/free-vector/beautiful-green-coconut-tree-leaf-design_43313455.htm#fromView=search&page=1&position=28&uuid=97f08020-2f0f-4ef0-b04a-72ec75ebbdec
+
+daisy.jpg
+    Free to use, taken by Chris G
+    https://www.pexels.com/photo/photo-of-daisy-flowers-1477166/
+
+chive.jpg
+    Free to use, taken by Irina Iriser
+    https://www.pexels.com/photo/macro-photograph-of-grass-1090977/
+
+hosta.jpg
+    Free to use, taken by Brett Sayles
+    https://www.pexels.com/photo/closeup-photo-of-green-variegated-leaf-plants-1073069/
+
+sunflower.jpg
+    Free to use
+    https://www.pexels.com/photo/close-up-photo-of-sunflower-64221/
+
+aloe.jpg
+    Free to use, taken by Cyril Caiazzo
+    https://www.pexels.com/photo/aloe-vera-plant-1634502/
+
+cherry.jpg
+    Free to use, taken by Anthony
+    https://www.pexels.com/photo/shallow-focus-photo-of-white-flowers-133079/
+
+hyacinth.jpg
+    Free to use
+    https://www.pexels.com/photo/blue-petaled-flower-with-green-leaf-46974/
+
+rose.jpg
+    Free to use
+    https://www.pexels.com/photo/orange-rose-flower-in-bloom-during-daytime-39517/
+
+lupine.jpg
+    Free to use
+    https://www.pexels.com/photo/pink-flowers-in-close-up-photography-133406/
+
+soapwart.jpg
+    Free to use, taken by Irina Iriser
+    https://www.pexels.com/photo/close-up-photography-of-pink-flowers-1408221/
+
+lotus.jpg
+    Free to use
+    https://www.pexels.com/photo/close-up-photography-of-pink-lotus-158465/

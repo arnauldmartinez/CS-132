@@ -1,0 +1,28 @@
+#tree-homepage, #browse, #buttons, #featured {
+    display: flex;
+}
+
+#browse, #featured {
+    flex-direction: column;
+}
+
+#browse, #featured {
+    align-items: center;
+}
+
+#buttons {
+    gap: 10pt;
+}
+
+#buttons > a:link {
+    color: rgb(85, 201, 85);
+}
+
+#buttons > a:visited {
+    color: darkgreen;
+}
+
+#tree-homepage > img {
+    width: 50%;
+}
+

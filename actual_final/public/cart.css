@@ -1,0 +1,13 @@
+#cart-list {
+    display: flex;
+    align-items: center;
+    gap: 5pt;
+    flex-wrap: wrap;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+#checkout {
+    width: 70%;
+    height: 20pt;
+}

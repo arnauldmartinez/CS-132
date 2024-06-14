@@ -1,0 +1,27 @@
+#contact, #contact-form div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10pt;
+}
+
+#contact {
+    align-items: center;
+    background-color: #BACD92;
+    justify-content: center;
+    border-radius: 10pt;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#contact-form div {
+    justify-content: space-between;
+}
+
+#first, #last, #phone, #email {
+    width: 125pt;
+}
+
+#message {
+    width: 250pt;
+    height: 200pt;
+}

@@ -1,0 +1,46 @@
+<!--
+  Name: Arnauld Martinez
+  Date: June 13th, 2024
+
+  This creates the cart page, displaying all the items currently in the cart
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Martinez Nursery</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="cart.css">
+  <script src="utils.js"></script>
+  <script defer src="cart.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Martinez Nursery Logo">
+    <h1>Martinez Nursery</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="plants.html">Plants</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="promotions.html">Promotions</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="selection">
+        <!-- Note: See credits.txt for image credits -->
+        <h2>Cart</h2>
+        <div id="cart-list">
+        </div>
+        <button id="checkout">Checkout</button>
+    </div>
+    <div id="message-area"></div>
+  </main>
+</body>
+</html>

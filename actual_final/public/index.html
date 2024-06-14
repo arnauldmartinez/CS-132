@@ -1,0 +1,78 @@
+<!--
+  Name: Arnauld Martinez
+  Date: June 13th, 2024
+
+  This is index.html. It is the landing page of the nursery website.
+  Here, users can get a high level understanding of the purpose of the
+  website and the company, and browse featured items.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Martinez Nursery</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="index.css">
+  <script src="utils.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Martinez Nursery Logo">
+    <h1>Martinez Nursery</h1>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="plants.html">Plants</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="promotions.html">Promotions</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="tree-homepage">
+      <img src="images/tree1_home.jpg" alt="Tree 1">
+      <img src="images/tree2_home.jpg" alt="Tree 2">
+    </div>
+    <div id="browse">
+      <h2>Browse our selection of plants</h2>
+      <div id="buttons">
+        <a href="plants.html" class="button">Shop All</a>
+        <a href="contact.html" class="button">Request Tree</a>
+      </div>
+    </div>
+    <div id="featured">
+      <h3>Featured Plants</h3>
+      <!-- Note: See credits.txt for image credits -->
+      <div class="plant-list">
+        <div class="plant-card">
+          <a href="plants/daisy.html">
+            <img src="images/daisy.jpg" alt="Daisy">
+          </a>
+          <h4>Daisy</h4>
+        </div>
+        <div class="plant-card">
+          <a href="plants/chive.html">
+            <img src="images/chive.jpg" alt="Chive">
+          </a>
+          <h4>Chive</h4>
+        </div>
+        <div class="plant-card">
+          <a href="plants/caladium.html">
+            <img src="images/caladium.jpg" alt="Caladium">
+          </a>
+          <h4>Caladium</h4>
+        </div>
+      </div>
+    </div>  
+  </main>
+  <footer>
+    <p>&copy; Arnauld Martinez</p>
+    <p><a href="credits.txt">Image credits</a></p>
+  </footer>
+</body> 
+</html>

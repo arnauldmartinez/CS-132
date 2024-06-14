@@ -1,0 +1,77 @@
+{
+  "aloe": [
+    "Aloe Vera is a cactus-like plant that thrives in hot and dry climates. The plant has historically been used topically and orally to improve acne, itches, burns, and rashes. Aloe has also been widely used as a dietary supplement.",
+    20,
+    "summer"
+  ],
+  "cactus": [
+    "Cacti have adapted to live in extremely dry environments. They are well known for their pricks, which are leaves that help reduce water loss.",
+    15,
+    "summer"
+  ],
+  "caladium": [
+    "Caladiums are known for their heart-shaped leaves, which come in various colors and sizes. They prefer warm, humid conditions and well-drained soil.",
+    50,
+    "summer"
+  ],
+  "cherry": [
+    "Cherry trees produce small, sweet fruit during the spring time. They are culturally significant in Japan and, according to locals, contain the most beautiful flowers.",
+    80,
+    "winter"
+  ],
+  "chive": [
+    "Chives are an herb related to onions and garlic. They are often used as culinary items. They are edible and can be used in salads or garnish.",
+    20,
+    "summer"
+  ],
+  "daisy": [
+    "Daisies are common wildflowers that are often found in lawns and meadows. They are a prototype flower, containing a simple central disk with ray florets.",
+    40,
+    "summer"
+  ],
+  "fern": [
+    "Ferns are a group of vascular plants that grow in shaded damp forests and tropical zones. They reproduce via spores and are provide ample shade near the ground.",
+    20,
+    "winter"
+  ],
+  "hosta": [
+    "Hostas are shade-tolerant plants known for their extensive foliage. They come in a variety of colors and patterns, and are popular for garden landscaping.",
+    15,
+    "winter"
+  ],
+  "hyacinth": [
+    "Hyacinths are bulbous plants known for their highly fragrant and colorful flowers. They are native to the eastern Mediterranean region and are popular in gardens and as indoor plants.",
+    90,
+    "winter"
+  ],
+  "lotus": [
+    "The lotus is an aquatic plant known for its large flowers and leaves. It can grow in muddy water, with its flowers rising above the water. It symbolizes purity and enlightenment in many cultures.",
+    100,
+    "summer"
+  ],
+  "lupine": [
+    "Lupines are flowering plants known for their tall spikes of flowers. They fix nitrogen in the soil, improving fertility for nearby plants. They are often found in meadows and are popular in outdoor gardens.",
+    50,
+    "summer"
+  ],
+  "rose": [
+    "Roses are among the most popular and widely cultivated flower, known for their vibrant colors and fragrances. They are used in perfumes, cosmetics, and as ornamental pieces in gardens and bouquets.",
+    70,
+    "summer"
+  ],
+  "soapwart": [
+    "Soapwarts are known for their soap-like qualities. It is often used in herbal medicine and natural cleaning products. They also produce small white flowers when they bloom.",
+    50,
+    "summer"
+  ],
+  "sunflower": [
+    "Sunflowers are known for their large, bright yellow flowers and brown center. They noticeably track the sun's location during the day. They also produce seeds that are rich in oil and nutrients.",
+    50,
+    "summer"
+  ],
+  "tulip": [
+    "Tulips are spring-blossoming plants that have vibrantly-colored flowers. They are native to central Asia and the Netherlands. In many cultures, tulips are associated with love and rebirth.",
+    70,
+    "winter"
+  ]
+}

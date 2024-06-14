@@ -1,0 +1,72 @@
+<!--
+  Name: Arnauld Martinez
+  Date: June 13th, 2024
+
+  This page creates a contact form that users can use to send messages to the developer. Messages are
+  saved in messages.json
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Martinez Nursery</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="contact.css">
+  <script src="utils.js"></script>
+  <script defer src="contact.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Martinez Nursery Logo">
+    <h1>Martinez Nursery</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="plants.html">Plants</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="promotions.html">Promotions</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="contact">
+      <h1>Contact Form</h1>
+      <form id="contact-form">
+        <div>
+          <label for="first">First name (required):</label>
+          <input type="text" name="first" id="first" required>
+        </div>
+
+        <div>
+          <label for="last">Last name (required):</label>
+          <input type="text" name="last" id="last" required>
+        </div>
+
+        <div>
+          <label for="phone">Phone Number (required):</label>
+          <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx" required>
+        </div>
+
+        <div>
+          <label for="email">Email Address (required):</label>
+          <input type="email" name="email" id="email" placeholder="user@domain">
+        </div>
+
+        <div>
+          <label for="message">Message (required):</label>
+          <textarea name="message" id="message" required></textarea>
+        </div>
+        
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div id="message-area"></div>
+  </main>
+</body> 
+</html>
